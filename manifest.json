@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Auto-Theatre Mode",
+  "version": "1.0",
+  "description": "Always start YouTube videos in theatre mode.",
+  "permissions": ["scripting"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/watch*"],
+      "js": ["theatre.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

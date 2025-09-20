@@ -33,9 +33,9 @@ Save these two files in a new folder called `youtube-theatre-mode`:
 1. Open a new tab and go to any YouTube video.
 2. The player should automatically switch to **Theatre Mode**.
 3. Works for:
-- Videos opened directly
-- Videos opened in new tabs
-- Navigating within YouTube
+    - Videos opened directly
+    - Videos opened in new tabs
+    - Navigating within YouTube
 
 ---
 

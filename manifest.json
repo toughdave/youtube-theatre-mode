@@ -10,23 +10,11 @@
       "js": ["theatre.js"],
       "run_at": "document_idle"
     }
-  ]
+  ],
+  "notes": {
+    "googleChrome": "Compatible with Google Chrome",
+    "microsoftEdge": "Works with Microsoft Edge",
+    "brave": "Tested on Brave browser"
+  }
 }
 
-// For Mozilla Firefox, the following code should be used instead:
-/*
-{
-  "manifest_version": 2,
-  "name": "YouTube Auto-Theatre Mode",
-  "version": "1.0",
-  "description": "Always start YouTube videos in theatre mode.",
-  "permissions": ["<all_urls>"],
-  "content_scripts": [
-    {
-      "matches": ["https://www.youtube.com/watch*"],
-      "js": ["theatre.js"],
-      "run_at": "document_idle"
-    }
-  ]
-}
-*/
